@@ -1,9 +1,10 @@
-import json
-from pymongo import MongoClient
-import pymongo
 import datetime
+import json
 
-from scraper.GovCall import GovCall
+import pymongo
+from pymongo import MongoClient
+
+from scraper.entities.GovCall import GovCall
 
 
 class ComplexEncoder(json.JSONEncoder):
@@ -43,7 +44,6 @@ class DbManager:
         return self.db.gov_calls.find({})
 
 
-print datetime.date(2010, 5, 1).strftime("%Y-%m-%d")
 manager = DbManager()
 
 gov_call_obj = GovCall(1, 'smart classes', 'education', 50000, 1000, 'poor',
