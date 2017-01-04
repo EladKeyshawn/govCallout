@@ -37,7 +37,6 @@ class DbManager:
         return self.db.test_collection
 
     def insert_gov_calls(self, govcall_obj):
-        # json_obj = json.dumps(govcall_obj.toJSON(), cls=ComplexEncoder)
         self.db.gov_calls.insert_one(govcall_obj.__dict__)
 
     def get_gov_collection_data(self):
