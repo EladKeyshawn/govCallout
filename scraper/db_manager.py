@@ -1,5 +1,17 @@
+import json
 from pymongo import MongoClient
 import pymongo
+import datetime
+
+from scraper.GovCall import GovCall
+
+
+class ComplexEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if hasattr(obj, 'reprJSON'):
+            return obj.reprJSON()
+        else:
+            return json.JSONEncoder.default(self, obj)
 
 
 class DbManager:
@@ -25,10 +37,21 @@ class DbManager:
         return self.db.test_collection
 
     def insert_gov_calls(self, govcall_obj):
-        govcall_obj.
+        # json_obj = json.dumps(govcall_obj.toJSON(), cls=ComplexEncoder)
+        self.db.gov_calls.insert_one(govcall_obj.__dict__)
+
+    def get_gov_collection_data(self):
+        return self.db.gov_calls.find({})
 
 
-
+print datetime.date(2010, 5, 1).strftime("%Y-%m-%d")
 manager = DbManager()
 
-print manager.get_authorities()
+gov_call_obj = GovCall(1, 'smart classes', 'education', 50000, 1000, 'poor',
+                       datetime.date(2010, 5, 1).strftime("%Y-%m-%d"))
+
+
+manager.insert_gov_calls(gov_call_obj)
+
+for doc in manager.get_gov_collection_data():
+    print doc
