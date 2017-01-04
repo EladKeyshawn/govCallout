@@ -8,7 +8,7 @@ class InitiatorOffice(Enum):
 
     "Ministry of Construction",
 
-    "Ministryof Culture and Sport",
+    "Ministry of Culture and Sport",
 
     "Ministry of Defense",
 
