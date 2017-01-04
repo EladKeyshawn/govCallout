@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Data.Pdf;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -27,12 +28,11 @@ namespace MainUI_UWP.Yair
             this.InitializeComponent();
             //keep it open.
             MySplitViev.IsPaneOpen = true;
+            SplitTogleBtn.IsEnabled = false;
             //SplitTogleBtn.IsEnabled = true;
             for (int i = 0; i < 30; i++)
             {
-
-
-                ListGrid.Children.Add(new RadioButton() { GroupName = "Split", Content = "Button1", Width = 330, Tag = (new TextBlock() { Text = "" }) });
+                //ListGrid.Children.Add(new RadioButton() { GroupName = "Split", Content = "Button1", Width = 330, Tag = (new TextBlock() { Text = "" }) });
             }
         }
 
@@ -60,7 +60,7 @@ namespace MainUI_UWP.Yair
         }
         private void SplitTogleBtn_Click(object sender, RoutedEventArgs e)
         {
-            MySplitViev.IsPaneOpen = !MySplitViev.IsPaneOpen;
+            //MySplitViev.IsPaneOpen = !MySplitViev.IsPaneOpen;
         }
 
         public void setMainWindowList()

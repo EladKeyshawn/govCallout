@@ -59,7 +59,7 @@
                 <RelativePanel Background="Gray">
                     <TextBlock x:Name="SampleTitle" Margin="0,0,0,0"/>
                     <ScrollViewer x:Name="ScenarioControl" RelativePanel.Below="SampleTitle" RelativePanel.Above="FooterPanel" ScrollViewer.VerticalScrollMode="Enabled" ScrollViewer.VerticalScrollBarVisibility="Auto">
-                        <StackPanel Orientation="Vertical" x:Name="ListGrid">
+                        <StackPanel x:Name="sideListStack" Orientation="Vertical">
                             <!--Home-->
                             <RadioButton x:Name="HomeRadioBtn" Content="Home" Click="Home_Click" GroupName="Split" Width="330">
                                 <RadioButton.Tag>
@@ -85,7 +85,7 @@
                 </StackPanel>
             </RelativePanel>
         </SplitView>
-        <StackPanel x:Name="HeaderPanel" Orientation="Horizontal" Background="#FFDAD9DC" HorizontalAlignment="Right" Width="1280">
+        <StackPanel x:Name="HeaderPanel" Orientation="Horizontal" Background="#FFDAD9DC">
             <Border Width="48" Background="{ThemeResource SystemControlBackgroundChromeMediumBrush}" Grid.Row="0">
                 <ToggleButton x:Name="SplitTogleBtn" Click="SplitTogleBtn_Click" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Foreground="{ThemeResource ApplicationForegroundThemeBrush}">
                     <ToggleButton.Content>

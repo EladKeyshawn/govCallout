@@ -99,10 +99,13 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Yair\MainSkeletionPage.xaml.cs">
+    <Compile Include="MainSkeletionPage.xaml.cs">
       <DependentUpon>MainSkeletionPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Yair\SingleGovCall.xaml.cs">
+    <Compile Include="pdfViewerPage.xaml.cs">
+      <DependentUpon>pdfViewerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SingleGovCall.xaml.cs">
       <DependentUpon>SingleGovCall.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -131,18 +134,28 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Yair\MainSkeletionPage.xaml">
+    <Page Include="MainSkeletionPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Yair\SingleGovCall.xaml">
+    <Page Include="pdfViewerPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Yair\Style\SplitViewStyles.xaml">
+    <Page Include="SingleGovCall.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style\SplitViewStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Enums\Enums.csproj">
+      <Project>{d20dff01-d4ba-4387-8a7d-87192d977139}</Project>
+      <Name>Enums</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

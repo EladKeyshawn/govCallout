@@ -19,6 +19,10 @@ Global
 		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		Release-Xml|Any CPU = Release-Xml|Any CPU
+		Release-Xml|ARM = Release-Xml|ARM
+		Release-Xml|x64 = Release-Xml|x64
+		Release-Xml|x86 = Release-Xml|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,6 +40,14 @@ Global
 		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Release|x64.Build.0 = Release|Any CPU
 		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Release|x86.ActiveCfg = Release|Any CPU
 		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Release|x86.Build.0 = Release|Any CPU
+		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Release-Xml|Any CPU.ActiveCfg = Release|Any CPU
+		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Release-Xml|Any CPU.Build.0 = Release|Any CPU
+		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Release-Xml|ARM.ActiveCfg = Release|Any CPU
+		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Release-Xml|ARM.Build.0 = Release|Any CPU
+		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Release-Xml|x64.ActiveCfg = Release|Any CPU
+		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Release-Xml|x64.Build.0 = Release|Any CPU
+		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Release-Xml|x86.ActiveCfg = Release|Any CPU
+		{20A246B2-3BB5-4E6F-8A53-B84AD23A2D7C}.Release-Xml|x86.Build.0 = Release|Any CPU
 		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Debug|Any CPU.Build.0 = Debug|x86
 		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Debug|Any CPU.Deploy.0 = Debug|x86
@@ -58,6 +70,18 @@ Global
 		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release|x86.ActiveCfg = Release|x86
 		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release|x86.Build.0 = Release|x86
 		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release|x86.Deploy.0 = Release|x86
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|Any CPU.ActiveCfg = Release|x64
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|Any CPU.Build.0 = Release|x64
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|Any CPU.Deploy.0 = Release|x64
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|ARM.ActiveCfg = Release|ARM
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|ARM.Build.0 = Release|ARM
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|ARM.Deploy.0 = Release|ARM
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|x64.ActiveCfg = Release|x64
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|x64.Build.0 = Release|x64
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|x64.Deploy.0 = Release|x64
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|x86.ActiveCfg = Release|x86
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|x86.Build.0 = Release|x86
+		{EEA05F55-D220-4599-AD24-C766A1416DEB}.Release-Xml|x86.Deploy.0 = Release|x86
 		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Debug|ARM.ActiveCfg = Debug|ARM
@@ -74,6 +98,14 @@ Global
 		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Release|x64.Build.0 = Release|x64
 		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Release|x86.ActiveCfg = Release|x86
 		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Release|x86.Build.0 = Release|x86
+		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Release-Xml|Any CPU.ActiveCfg = Release|Any CPU
+		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Release-Xml|Any CPU.Build.0 = Release|Any CPU
+		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Release-Xml|ARM.ActiveCfg = Release|ARM
+		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Release-Xml|ARM.Build.0 = Release|ARM
+		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Release-Xml|x64.ActiveCfg = Release|x64
+		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Release-Xml|x64.Build.0 = Release|x64
+		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Release-Xml|x86.ActiveCfg = Release|x86
+		{D20DFF01-D4BA-4387-8A7D-87192D977139}.Release-Xml|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
