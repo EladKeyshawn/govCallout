@@ -25,6 +25,8 @@ class DbManager:
         return self.db.test_collection
 
     def insert_gov_calls(self, govcall_obj):
+        govcall_obj.
+
 
 
 manager = DbManager()
