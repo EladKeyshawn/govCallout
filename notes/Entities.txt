@@ -1,0 +1,18 @@
+{
+	"authority":{
+		name,
+		authorityID,
+		numberOfCitizens,
+		peripheralRating,
+		socioEconomicRating
+
+	}
+	"KolKore":{
+		subject,
+		kolkoreID,
+		initiatorOffice,
+		financialAidAmount,
+		matchingAmount
+	}
+
+}
