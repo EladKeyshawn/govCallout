@@ -25,6 +25,31 @@ namespace MainUI_UWP
         public MainPage()
         {
             this.InitializeComponent();
+
+           foreach(var x in Enum.GetValues(typeof(Enums.Ministries)))
+            {
+                string t = myfunc(x);
+                if (t == "Ministry of National Infrastructures Energy and Water Resources") t = "Ministry of National Infrastructures Energy and Water\nResources";
+                this.listView.Items.Add(t);
+            }
+
+           
+        }
+    
+        public string myfunc(object x)
+        {
+            string aa = x.ToString();
+            return aa.Replace("_"," ");
+        }
+
+        private void listView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void AutButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
