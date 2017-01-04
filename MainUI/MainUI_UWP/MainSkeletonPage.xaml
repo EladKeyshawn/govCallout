@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="MainUI_UWP.Yair.MainSkeletionPage"
+    x:Class="MainUI_UWP.Yair.MainSkeletonPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:MainUI_UWP.Yair"
@@ -10,7 +10,7 @@
     <Page.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="/Yair/Style/SplitViewStyles.xaml"/>
+                <ResourceDictionary Source="/Style/SplitViewStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
             <Style TargetType="TextBlock" BasedOn="{StaticResource SplitViewTextBlockStyle}" />
             <Style TargetType="RadioButton" BasedOn="{StaticResource SplitViewRadioButtonStyle}" />

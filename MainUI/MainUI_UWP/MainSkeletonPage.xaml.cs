@@ -21,15 +21,16 @@ namespace MainUI_UWP.Yair
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainSkeletionPage : Page
+    public sealed partial class MainSkeletonPage : Page
     {
-        public MainSkeletionPage()
+        public MainSkeletonPage()
         {
             this.InitializeComponent();
             //keep it open.
             MySplitViev.IsPaneOpen = true;
             SplitTogleBtn.IsEnabled = false;
             //SplitTogleBtn.IsEnabled = true;
+            MyFrame.Navigate(typeof(pdfViewerPage));
             for (int i = 0; i < 30; i++)
             {
                 //ListGrid.Children.Add(new RadioButton() { GroupName = "Split", Content = "Button1", Width = 330, Tag = (new TextBlock() { Text = "" }) });
@@ -62,6 +63,7 @@ namespace MainUI_UWP.Yair
         {
             //MySplitViev.IsPaneOpen = !MySplitViev.IsPaneOpen;
         }
+
 
         public void setMainWindowList()
         {
