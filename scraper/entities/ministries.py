@@ -2,7 +2,7 @@ from enum import Enum
 
 
 class InitiatorOffice(Enum):
-    "Ministry of Agriculture and RuralDevelopment",
+    "Ministry of Agriculture and Rural Development",
 
     "Ministry of Communications",
 
