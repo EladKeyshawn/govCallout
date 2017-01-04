@@ -28,7 +28,7 @@ class InitiatorOffice(Enum):
 
     "Ministry of Health",
 
-    "Ministry of HomeFrontDefense",
+    "Ministry of Home Front Defense",
 
     "Ministry of Immigrant Absorption",
 
@@ -36,7 +36,7 @@ class InitiatorOffice(Enum):
 
     "Ministry of Justice",
 
-    "Ministry of National Infrastructures, Energy and WaterResources",
+    "Ministry of National Infrastructures, Energy and Water Resources",
 
     "Ministry of Public Security",
 
@@ -44,10 +44,10 @@ class InitiatorOffice(Enum):
 
     "Ministry of Science, Technology and Space",
 
-    "Ministry of Social Affairs and SocialServices",
+    "Ministry of Social Affairs and Social Services",
 
     "Ministry for Social Equality",
 
     "Ministry of Tourism",
 
-    "Ministry of Transport and RoadSafety",
+    "Ministry of Transport and Road Safety",
